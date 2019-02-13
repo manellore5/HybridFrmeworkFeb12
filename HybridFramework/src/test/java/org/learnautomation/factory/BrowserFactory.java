@@ -22,7 +22,7 @@ public class BrowserFactory {
 
 			//ChromeOptions option = new ChromeOptions();
 			//option.setAcceptInsecureCerts(true);
-			//option.addArguments("--disable--notifications");
+			option.addArguments("--disable--notifications");
 			driver= new ChromeDriver();
 					}
 		else if(browserName.equalsIgnoreCase("firefox"))
