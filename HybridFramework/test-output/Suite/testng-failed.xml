@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="LoginCRM(failed)">
+    <classes>
+      <class name="org.learnautomation.testcases.LoginTestforCRM">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="loginCRM"/>
+        </methods>
+      </class> <!-- org.learnautomation.testcases.LoginTestforCRM -->
+    </classes>
+  </test> <!-- LoginCRM(failed) -->
+</suite> <!-- Failed suite [Suite] -->
